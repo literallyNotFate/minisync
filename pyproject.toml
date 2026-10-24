@@ -1,0 +1,17 @@
+[project]
+name = "minisync"
+version = "0.1.0"
+description = "Minimal and light tool to sync your stuff"
+readme = "README.md"
+authors = [
+    { name = "Fate", email = "d3veloperfate@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+minisync = "minisync:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
